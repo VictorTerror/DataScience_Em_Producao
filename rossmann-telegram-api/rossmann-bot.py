@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 import pandas as pd
@@ -15,6 +16,9 @@ TOKEN = '1974088535:AAHDri7qOv0DO8DmgK2vHXohG_Gt8ix2jfU'
 
 ## Webhook
 #https://api.telegram.org/bot1974088535:AAHDri7qOv0DO8DmgK2vHXohG_Gt8ix2jfU/setWebhook?url=https://f03eb788341638.localhost.run
+
+## Webhook Heroku
+#https://api.telegram.org/bot1974088535:AAHDri7qOv0DO8DmgK2vHXohG_Gt8ix2jfU/setWebhook?url=https://rossmann-telegram-bot-vgt.herokuapp.com/
 
 ## Send message
 #https://api.telegram.org/bot1974088535:AAHDri7qOv0DO8DmgK2vHXohG_Gt8ix2jfU/sendMessage?chat_id=1920981910&text=Hi Victor!
@@ -36,8 +40,8 @@ def send_message(chat_id, text):
 
 def load_dataset(store_id):
 	# Loading test dataset
-	df10 = pd.read_csv( '/home/victor/repos/DataScience_Em_Producao/data/test.csv' )
-	df_store_raw = pd.read_csv( '/home/victor/repos/DataScience_Em_Producao/data/store.csv' )
+	df10 = pd.read_csv( 'test.csv' )
+	df_store_raw = pd.read_csv( 'store.csv' )
 
 	# merge test dataset + store
 	df_test = pd.merge( df10, df_store_raw, how='left', on='Store' )
@@ -135,5 +139,6 @@ def index():
 	
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0', port=5000)
+	port = os.environ.get('PORT', 5000)
+	app.run(host='0.0.0.0', port=port)
 
