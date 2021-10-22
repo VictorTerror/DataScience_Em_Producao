@@ -1,5 +1,3 @@
-# DataScience Em Producao
+# Previsão de Venda das Lojas Rossmann
 
-Este repositório contem o modelo que realiza a previsão de vendas, para as próximas 6 semanas, das lojas da Rossmann.
-
-O modelo já se encontra em produção e pode ser acessado via telegram.
+![alt text](https://github.com/VictorTerror/DataScience_Em_Producao/blob/main/img/rossmann.png?raw=True)
