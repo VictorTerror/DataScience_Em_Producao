@@ -5,8 +5,7 @@
 
 ## **1. Business Problem**
 
-O CFO da Rossmann deseja reformar as lojas da rede, para a tomada de decisão Data Driven, ele solicita de uma previsão de vendas para as próximas 6 semanas. Como cientista de dados e membro da equipe, cabe a mim decidir se essa requisição atende os objetivos desejados e utilizar as ferramentas ao meu alcance para desenvolver a melhor solução possível para o negócio.
-
+A Rossmann é uma das maiores redes de drogarias da Europa, com cerca de 56.200 funcionários e mais de 4.000 lojas em toda a Europa. Em 2019, teve um faturamento de mais de € 10 bilhões. Seu CFO deseja investir parte do faturamento para reformar as lojas da rede. Para decidir o valor a ser investido em cada loja, ele solicita de uma previsão de vendas para as próximas 6 semanas de cada uma das unidades. 
 
 
 
