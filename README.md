@@ -19,8 +19,14 @@ Minha estratégia para resolver esse desafio foi:
 
 * 1°. Data Description
 * 2°. Feature Engineering
-* 3°. Exploratory Data Analysis
-* 4°. Business Solution
+* 3°. Data Filtering
+* 4°. Exploratory Data Analysis
+* 5°. Data Preparation
+* 6°. Feature Selection
+* 7°. Machine Learning Modelling
+* 8°. Hyperparameter Fine Tuning
+* 9°. Business Performance
+* 10°. Deploy
 
 
 
