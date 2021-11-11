@@ -11,7 +11,11 @@ A Rossmann é uma das maiores redes de drogarias da Europa, com cerca de 56.200 
 
 ## **2. Business Assumptions**
 
+* **Competition_distance:** É expressa em metros e no caso de seu valor ser igual a 0, assumi que não há competidores próximos e para efeitos de algorítimos de machine learning substitui esse valor por 100000 que é bem superior ao valor máximo encontrado de 75860.
 
+* **Assortment:** Assumi que existe uma hierarquia entre os tipos de estoque. Então lojas como o estoque C oferecem também os tipos A e B.
+
+* **Open:** Lojas fechadas foram descartadas a principio, uma vez que suas vendas são igual a 0. Essa variável será melhor avaliada futuramente, no próximo ciclo do CRISP, para tentar melhora o desempenho do algorítimo de machine learning.
 
 
 ## **3. Solution Strategy**
@@ -26,8 +30,7 @@ Minha estratégia para resolver esse desafio foi:
 * 7°. Machine Learning Modelling
 * 8°. Hyperparameter Fine Tuning
 * 9°. Business Performance
-* 10°. Deploy
-
+* 10°. Model deploy
 
 
 ## **4. Top 3 Data Insights**
