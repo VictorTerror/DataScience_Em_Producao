@@ -38,13 +38,13 @@ Minha estratégia para resolver esse desafio foi:
   **Falso** Lojas com competidores mais proximos vendem mais.<br/>
   **Insight:** Possivelmente, a proximidade com outras lojas concorrentes, crie uma região comercial mais atrativa para os clientes, o que, acaba por aumentar o faturamento. <br/>
   
-* **Hipótese 02:** Imóveis construidos nos últimos anos deveriam estar em melhores condições.<br/>
-  **Falso** Imóveis contruídos nos ultimos 25 anos estão em condições inferiores.<br/>
-  **Insight:** Esses imóveis são promissores para serem adquiridos a preços inferiores e posteriormente reformados, melhorando sua condição e agregando o valor da reforma.<br/>
+* **Hipótese 02:** Lojas com promoções ativas por mais tempo deveriam vender mais.<br/>
+  **Falso** lojas com promoções ativas por mais tempo vendem menos, após certo periodo de promoção.<br/>
+  **Insight:** Após um periodo muito extenso de promoções, as vendas diminuem. Esse efeito é provavelmente desencadeado por uma normalização dos preços promocionais.<br/>
 
-* **Hipótese 03:** O preço médio dos imóveis é maior no verão.<br/>
-  **Falso** O preço médio dos imóveis é maior na primavera.<br/>
-  **Insight:** Os imóveis adquiridos devem ser preferencialmente vendidos na primavera, onde o valor médio é superior à outras estações.
+* **Hipótese 03:** Lojas com compedidores a mais tempo deveriam vender mais.<br/>
+  **Falso** Lojas com competidores a mais tempo vendem menos.<br/>
+  **Insight:** A tendência é que as vendas se dispersem entre todos os competidores, de determinada região, após grandes períodos de tempo.
 
 
 ## **6. Conclusion**
