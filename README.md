@@ -32,6 +32,25 @@ Minha estratégia para resolver esse desafio foi:
 * 9°. Business Performance
 * 10°. Model deploy
 
+## **4. Metrics**
+
+Model Name | MAE | MAPE | RMSE 
+---------- | ---------------- | ---- | ------
+Random Forest Regressor | 678.296634 | 0.099816 | 1008.248950
+XGBoost Regressor | 890.527565	| 0.129193	| 1306.496922
+Avarege_Model | 1354.800353	| 0.455051	| 1835.135542
+Linear Regression | 1867.089774	| 0.292694	| 2671.049215
+Linear Regression - Lasso | 1891.704881	| 0.289106	| 2744.45173<br/>
+<br/>
+
+###  Metricas após a Validação Cruzada
+
+Model Name	| MAE CV	| MAPE CV	| RMSE CV
+---------- | ------ | ------- | -------
+Linear Regression |	2081.73 +/- 295.63	| 0.3 +/- 0.02	| 2952.52 +/- 468.37
+Lasso	| 2116.38 +/- 341.5	 | 0.29 +/- 0.01	 | 3057.75 +/- 504.26
+Random Forest Regressor |	838.18 +/- 218.74	| 0.12 +/- 0.02	| 1256.87 +/- 319.67
+XGBoost Regressor	| 1048.45 +/- 172.04	| 0.14 +/- 0.02	| 1513.27 +/- 234.33
 
 ## **5. Top 3 Data Insights**
 * **Hipótese 01:** Lojas com compeditores mais proximos deveriam vender menos.<br/>
