@@ -67,10 +67,10 @@ Apesar da Random Forest ter o melhor desempenho, optei pelo XGBoost Regressor po
 
 ## **6. Business Results**  
 
+### Metricas do Modelo
 Model Name	| MAE |	MAPE	| RMSE
 ---------- | ------ | ------- | -------
 XGBoost Regressor	| 634.160515	| 0.092536	| 918.0236
-
 
 ![alt text](https://github.com/VictorTerror/DataScience_Em_Producao/blob/main/img/MLresultsX.png?raw=True)
 
@@ -81,11 +81,11 @@ worst_scenario |	R$ 283,679,498.75
 best_scenario	| R$ 285,101,876.15
 
 
-
+### API do Telegram
 <img height="700em" src="https://github.com/VictorTerror/DataScience_Em_Producao/blob/main/img/Telegrambot.jpeg?raw=True"/>
 
 ## **7. Conclusion**
-
+Como visto no passo anterior, tivemos um bom desepenho do modelo de Machine Learning, com um erro inferior a 10% nas previsões. Agora o CFO é capaz de determinar o valor a ser investido em cada uma das lojas da rede.
 
 ## **8. Next Steps**
 Iniciar um novo ciclo do CRISP tendo como foco os dados Outliers.
