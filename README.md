@@ -72,7 +72,7 @@ Model Name	| MAE |	MAPE	| RMSE
 XGBoost Regressor	| 634.160515	| 0.092536	| 918.0236
 
 
-![alt text](https://github.com/VictorTerror/DataScience_Em_Producao/blob/main/img/MLresults.png?raw=True)
+![alt text](https://github.com/VictorTerror/DataScience_Em_Producao/blob/main/img/MLresultsX.png?raw=True)
 
 Scenarios	| Values	|
 ---------- | ------ |
