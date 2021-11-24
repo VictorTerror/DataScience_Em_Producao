@@ -85,14 +85,17 @@ best_scenario	| R$ 285,101,876.15
 <img height="700em" src="https://github.com/VictorTerror/DataScience_Em_Producao/blob/main/img/Telegrambot.jpeg?raw=True"/>
 
 ## **7. Conclusion**
-Como visto no passo anterior, tivemos um bom desepenho do modelo de Machine Learning, com um erro inferior a 10% nas previsões. Agora o CFO é capaz de determinar o valor a ser investido em cada uma das lojas da rede.
+Ao final desse projeto foi possível compreender melhor algumas técnicas para a otimização dos modelos de Machine Learning como a Validação Cruzada e os Hyperparametros e também as métricas de Erro como MAE, MAPE e RMSE.
+
+Outro ponto importante foi a criação de novas features a fim de entender melhor o fenômeno de vendas e contribuir para a melhor performance do modelo de Machine Leaning.
+
+Por fim o que eu acredito ter sido a tarefa mais desafiadora e a mais gratificante foi o deploy do modelo em produção e a integração com a API do Telegram o que tornou possível o acesso as previsões de maneira remota e deu um toque mais profissional ao projeto.
 
 ## **8. Next Steps**
-Iniciar um novo ciclo do CRISP tendo como foco os dados Outliers.
-Criar e analisar novos gráficos para um melhor entendimento do negócio.
-Validar novas hipóteses e gerar insights.
-Testar novos parametros para o XGBoost.
-
+Focar no tratamento dos Outliers.
+Aprofundamento em derivações de features
+Rescaling e Encode dos dados com metodologias diferentes
+Trabalhar com um método mais robusto para achar os melhores Hyperparametros para o modelo
 
 
 
