@@ -92,10 +92,13 @@ Outro ponto importante foi a criação de novas features a fim de entender melho
 Por fim o que eu acredito ter sido a tarefa mais desafiadora e a mais gratificante foi o deploy do modelo em produção e a integração com a API do Telegram o que tornou possível o acesso as previsões de maneira remota e deu um toque mais profissional ao projeto.
 
 ## **8. Next Steps**
-Focar no tratamento dos Outliers.
-Aprofundamento em derivações de features
-Rescaling e Encode dos dados com metodologias diferentes
-Trabalhar com um método mais robusto para achar os melhores Hyperparametros para o modelo
+* Tratamento dos Outliers.
+
+* Aprofundamento em derivações de features.
+
+* Rescaling e Encode dos dados com metodologias diferentes.
+
+* Trabalhar com um método mais robusto para achar os melhores Hyperparametros para o modelo.
 
 
 
